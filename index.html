@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--referance https://www.vedantu.com/maths/conversion-of-temperature -->
+    <section class="container">
+      <h1>Tempratue Convert</h1>
+
+      <label for="fromUnit">From:</label>
+
+      <select  id="fromUnit">
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+      </select>
+       
+      <label for="toUnit">To</label>
+
+      <select id="toUnit">
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+      </select>
+     <label for="tempratue">Tempratue</label>
+     <input type="number" id="temprature" placeholder="enter the tempratue">
+     <button>Convert</button>
+     <br>
+     <label for="result">Result:</label>
+     <input type="text" name="" id="result" readonly>
+
+    </section>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
